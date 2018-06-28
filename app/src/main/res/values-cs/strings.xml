@@ -1,0 +1,112 @@
+<!--
+  ~ Copyright (c) 2017 Bartek Fabiszewski
+  ~ http://www.fabiszewski.net
+  ~
+  ~ This file is part of μlogger-android.
+  ~ Licensed under GPL, either version 3, or any later.
+  ~ See <http://www.gnu.org/licenses/>
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_newtrack">Nová trasa</string>
+    <string name="button_upload">Nahrát</string>
+    <string name="is_running" comment="substituted app_name">%s běží</string>
+    <string name="title_newtrack">Nová trasa</string>
+    <string name="label_track">Současná trasa</string>
+    <string name="label_newtrack_name">Název nové trasy</string>
+    <string name="label_name">Název</string>
+    <string name="label_last_update">Poslední aktualizace: %s</string>
+    <string name="label_synchronized">Synchronizováno</string>
+    <string name="cancel">Zrušit</string>
+    <string name="submit">Odeslat</string>
+    <string name="ok">OK</string>
+    <string name="settings">Nastavení</string>
+    <string name="pref_username_title">Uživatelské jméno</string>
+    <string name="pref_username_summary">Uživatelské jméno na vzdáleném serveru.</string>
+    <string name="pref_pass_title">Heslo</string>
+    <string name="pref_pass_summary">Heslo na vzdáleném serveru.</string>
+    <string name="pref_host_title">URL serveru</string>
+    <string name="pref_host_summary">URL adresa vzdáleného serveru.</string>
+    <string name="pref_mintime_title">Minimální čas</string>
+    <string name="pref_mintime_summary">Minimální čas mezi aktualizacemi pozice.</string>
+    <string name="pref_mindistance_title">Minimální vzdálenost</string>
+    <string name="pref_mindistance_summary">Minimální vzdálenost mezi aktualizacemi pozice.</string>
+    <string name="pref_minaccuracy_title">Minimální přesnost</string>
+    <string name="pref_minaccuracy_summary">Minimální přesnost pozice</string>
+    <string name="pref_livesync_title">Živá synchronizace</string>
+    <string name="pref_livesync_summary">Živé nahrávání pozice na server. Je vyžadováno platné uživatelské jméno, heslo a URL sdresa.</string>
+    <string name="pref_autostart_title">Automatický start</string>
+    <string name="pref_autostart_summary">Aplikace se automaticky zapne po spuštění systému.</string>
+    <string name="pref_provider_title">Poskytovatel pozice</string>
+    <string name="pref_provider_summary">Pozice může být získána pomocí GPS, síťe nebo pomocí obou metod najednou. Při použití obou metod je dosaženo lepších výsledků ale zvýší se využití baterie.</string>
+    <string name="pref_units_title">Jednotky</string>
+    <string name="pref_units_summary">Preferované jednotky při zobrazování přehledu trasy.</string>
+    <string name="pref_units_metric">Metrické</string>
+    <string name="pref_units_imperial">Imperiální</string>
+    <string name="label_status">Stav</string>
+    <string name="label_location">Pozice</string>
+    <string name="label_synchronization">Synchronizace</string>
+    <string name="tracking_stopped">Sledování zastaveno</string>
+    <string name="tracking_started">Sledování začalo</string>
+    <string name="uploading_started">Nahrávání začalo</string>
+    <string name="nothing_to_synchronize">Není co synchronizovat</string>
+    <string name="no_positions">Současná trasa nemá žádné pozice</string>
+    <string name="warning">Varování</string>
+    <string name="notsync_warning">Current track contains not synchronized positions. Setting new track will delete all this data.</string>
+    <string name="empty_trackname_warning">Please set up new track first</string>
+    <string name="logger_running_warning">Please stop current tracking first</string>
+    <string name="about">O aplikace</string>
+    <string name="about_description">Simple location logger with support for live tracking and position uploading to own <xliff:g id="server_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-server">]]></xliff:g>μlogger server<xliff:g id="server_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_description2">For more information and help please see <xliff:g id="app_link_open"><![CDATA[<a href="https://github.com/bfabiszewski/ulogger-android">]]></xliff:g>μlogger homepage<xliff:g id="app_link_close"><![CDATA[</a>]]></xliff:g>.</string>
+    <string name="about_version">Verze %s</string>
+    <string name="about_license">Licence: GPL</string>
+    <string name="uploading_failed">Nahrávání selhalo:</string>
+    <string name="uploading_done">Nahrávání dokončeno</string>
+    <string name="track_summary">Shrnutí trasy</string>
+    <string name="summary_distance" comment="1-distance, 2-unit name">%1$s %2$s</string>
+    <plurals name="summary_positions">
+        <item quantity="one">%d pozice</item>
+        <item quantity="few">%d pozice</item>
+        <item quantity="many">%d pozicí</item>
+        <item quantity="other">%d pozicí</item>
+    </plurals>
+    <string name="summary_duration">%1$d h %2$d min</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_mile">mi.</string>
+    <string name="provide_valid_url">Please provide valid server url</string>
+    <string name="provide_user_pass_url">Please enter user, password and server url first</string>
+    <string name="e_illegal_redirect">Illegal redirect: %d</string>
+    <string name="e_auth_failure">Authorization failure: %d</string>
+    <string name="e_http_code">HTTP error code: %d</string>
+    <string name="e_server_response">Server response error</string>
+    <string name="e_unknown_host">Unknown host: %s</string>
+    <string name="e_bad_url">Špatná URL: %s</string>
+    <string name="e_connect">Chyba připojení: %s</string>
+    <string name="gps_disabled_warning">Warning: gps provider is disabled</string>
+    <string name="net_disabled_warning">Warning: network provider is disabled</string>
+    <string name="location_disabled">You must enable at least one location provider</string>
+    <string name="location_permission_denied">You must accept permission for location updates</string>
+    <string name="write_permission_denied">You must accept permission for writing to external storage</string>
+    <string name="using_network">Using network provider</string>
+    <string name="using_gps">Using gps provider</string>
+    <string name="export">Export to GPX</string>
+    <string name="nothing_to_export">Nothing to export</string>
+    <string name="export_done">Track successfully saved to downloads folder</string>
+    <string name="export_failed">Export failed</string>
+    <string name="e_output_dir">Failed to create output folder</string>
+    <string name="e_external_not_writable">External storage not writable</string>
+    <string name="unknown_track">Unknown track</string>
+    <string name="export_started">Export started</string>
+    <plurals name="label_positions_behind">
+        <item quantity="one">%d position behind</item>
+        <item quantity="few">%d positions behind</item>
+        <item quantity="many">%d positions behind</item>
+        <item quantity="other">%d positions behind</item>
+    </plurals>
+    <string name="track_server_setup_warning">If you change server setup you may not be able to synchronize current track.</string>
+    <string name="pref_mintime_other">Minimum time interval in seconds</string>
+    <string name="pref_mindistance_other">Minimum distance in meters</string>
+    <string name="pref_minaccuracy_other">Minimum accuracy in meters</string>
+</resources>
